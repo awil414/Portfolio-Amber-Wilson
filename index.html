@@ -6,45 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amber Wilson . Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <!-- Header -->
         <h1>Amber Wilson</h1>
-        <!-- Navbar-->
-        <nav>
-            <a href="#About Amber">About Amber</a>
-            <a href="#Work">Work</a>
-            <a href="#Contact">Contact</a>
-        </nav>
     </header>
 
+        <!-- Navbar-->
+    <div>
+        <nav class="topnav">
+            <a href="#about">About Amber</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
     <!-- Body -->
-
-    <main>
-        <!-- About Section-->
-        <div id="AboutAmber" class="AboutAmber">
-            <h2> About Amber</h2>
-            <img class="img-Amber" src="IMG_7612.jpeg" alt="Amber Wilson" />
-            <p> Amber is currently enrolled in Vanderbilt University's Coding Boot Camp--a rigourous curriculum program
-                that covers a full-stack. </p>
+    <main class="row">
+        <!--Left Side Column-->
+        <div class="column left">
+            <div id="about" class="about">
+                <h2>About Amber</h2>
+            </div>
+            <div id="work" class="work">
+                <h2>Work</h2>
+            </div>
+            <div id="contact" class="contact">
+                <h2>Contact</h2>
+            </div>
         </div>
-
-        <!-- Work-->
-        <h3> Work </h3>
-        <div id="Work" class="Work">
-            <ul>
-                <li><a
-                        href="https://awil414.github.io/Horiseon-Code-Refactor/#social-media-marketing/">Horiseon-Code-Refactor</a>
-                </li>
-            </ul>
-
-
-            <section id="Contact" class="Contact"></section>
-
-
+        
+        <!-- About Section-->
+        <div class="column right">
+            <div class="row about-content">
+                <div class="photo">
+                    <img class="img-Amber" src="./assets/img/me.jpeg" alt="Amber Wilson">
+                </div>
+                <p class="introduction"></p>
+                    Amber is currently enrolled in Vanderbilt University's Coding Boot Camp--a rigourous curriculum program
+                    that covers a full-stack.
+                </p>
+            </div>
+        <!-- Work Section-->
+            <div  class="row work-content">
+                <img id="project1-img" src="./assets/img/project.png" alt="Project 1">
+                <a href="https://awil414.github.io/Horiseon-Code-Refactor/#social-media-marketing/">
+                <div class="project1-img-text">
+                    Code-Refactor-Project
+                </div>
+            </div>
+        </div>
+            
     </main>
 
 
