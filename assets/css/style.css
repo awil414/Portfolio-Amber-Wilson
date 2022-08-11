@@ -39,7 +39,7 @@ body {
 .right {
     width: 75%;
 }
-
+/* Create left column content */
 .about {
     margin-top: 60px;
     margin-left: 140px;
@@ -61,17 +61,18 @@ body {
     display: table;
     clear: both;
 }
-
+/* Create right column content */
+/* Style About Amber section */
 .about-content {
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 .photo {
     text-align: center;
     float: left;
     width: 40%;
-    padding: 10px;
+    padding: 20px;
 }
 
 .introduction {
@@ -92,29 +93,30 @@ img {
 }
 
 p {
-    font-size: 15px;
+    font-size: 17px;
 }
-
+/* Style Work section */
 .work-content {
     text-align: center;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 .project1-img {
     width: 70%;
-    padding: 15px;
+    padding: 20px;
 }
 .project1-img-text {
     background-color: white;
     position: relative;
-    top: -45px;
+    top: -30px;
     width: 30%;
     border-radius: 20px;
 }
+/* Style Contact section */
 .contact-content {
     text-align:left;
     width: 80%;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 /* Responsive layout - makes the columns stack on top of each other instead of next to each other */
