@@ -105,9 +105,11 @@ p {
     padding: 15px;
 }
 .project1-img-text {
+    background-color: white;
     position: relative;
     top: -45px;
-    left: -40%;
+    width: 30%;
+    border-radius: 20px;
 }
 .contact-content {
     text-align:left;
